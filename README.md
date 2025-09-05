@@ -9,12 +9,12 @@ The PCB includes an**AC-DC converter (HLK-5M05) for regulated power**, making th
 - EasyEDA (schematic & PCB design)  
 
 ## 🔧 Features
-- Power Supply Unit (U1 – HLK-5M05) : Converts AC input to +5V DC.
-- Arduino Nano (U3)                 : Central controller that processes the PIR sensor signal
-- PIR Sensor (U2 – HC-SR501)        : Detects human motion and sends a signal to Arduino.
-- Relay Circuit (RLY1 + Q1 + D1)    : Switches the AC load **ON/OFF** based on Arduino’s output.
-- Indicator LEDs (LED1, LED2, LED3) : Provide power and status indication.
-- Resistors (R1–R5) & Capacitors (C1): Support biasing, protection, and signal conditioning.
+- **Power Supply Unit (U1 – HLK-5M05)** : Converts AC input to +5V DC.
+- **Arduino Nano (U3)**                : Central controller that processes the PIR sensor signal
+- **PIR Sensor (U2 – HC-SR501)**        : Detects human motion and sends a signal to Arduino.
+- **Relay Circuit (RLY1 + Q1 + D1)**    : Switches the AC load **ON/OFF** based on Arduino’s output.
+- **Indicator LEDs (LED1, LED2, LED3)** : Provide power and status indication.
+- **Resistors (R1–R5) & Capacitors (C1)**: Support biasing, protection, and signal conditioning.
 
 ## 📂 Repository Structure
 - **schematic And BOM/** → schematic diagram (PDF) And BOM file.
